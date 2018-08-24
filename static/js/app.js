@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$('form').on('submit', function (event){
+  $('form').on('submit', function (event){
 	$.ajax({
   		type: "POST",
 		url: "/convert",
@@ -18,5 +18,7 @@ $(document).ready(function(){
 	});
 
 	event.preventDefault();
-
+	
+    });
 });
+
